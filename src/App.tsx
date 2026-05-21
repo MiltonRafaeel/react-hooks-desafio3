@@ -1,7 +1,14 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./routes/Home";
+
 function App() {
 
   return (
-   <h1>Ola mundo</h1>
+   <BrowserRouter>
+    <Routes>
+      <Route index element={<Home />} />
+    </Routes>
+   </BrowserRouter>
   );
 }
 

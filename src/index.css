@@ -1,3 +1,27 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --bg-color-primary: #1890FF;
+    --bg-color-secondary: #F7F9FA;
+    --bg-color-tertiary: #E6F7FF;
+    --bg-color-quartenary: #F5F5F5;
+
+    --font-color-primary: #000;
+    --font-color-secondary: #7E7E7E;
+    --font-color-tertiary: #1890FF;
+    --font-color-quartenary: #737373;
+    --font-color-quinternary: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
 }
