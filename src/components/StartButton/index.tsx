@@ -5,11 +5,11 @@ type Props = {
     button: string;
 }
 
-export default function Button({ button } : Props) {
+export default function StartButton({ button } : Props) {
 
     return (
         <section className="custom-button">
-            <Link to="/">
+            <Link to="/before">
                 {button}
             </Link>
         </section>

@@ -1,0 +1,14 @@
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color-primary);
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    color: var(--font-color-quinternary);
+}
+
+.find-button {
+    margin-top: 24px;
+}

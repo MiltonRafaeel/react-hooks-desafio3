@@ -1,7 +1,7 @@
-import Button from "../../components/Button";
 import Content from "../../components/Content";
 import Header from "../../components/Header";
 import Title from "../../components/Title";
+import StartButton from "../../components/StartButton";
 
 export default function Home() {
 
@@ -16,7 +16,7 @@ export default function Home() {
                     <Content content="DevSuperior - Escola de programação" />
                 </div>
                 <div className="mt27">
-                    <Button button="Começar" />
+                    <StartButton button="Começar" />
                 </div>
             </main>
         </>

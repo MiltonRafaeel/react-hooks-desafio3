@@ -1,0 +1,21 @@
+.card-container {
+    width: 1251px;
+    height: 270px;
+    display: flex;
+    background-color: var(--bg-color-tertiary);
+    border-radius: 16px;
+    margin: 54px 100px;
+}
+
+.card-content {
+    margin-top: 54px;
+}
+
+.custom-title-card-find-profile {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.ml31 {
+    margin-left: 31px;
+}
