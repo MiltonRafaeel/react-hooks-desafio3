@@ -1,8 +1,24 @@
+import Button from "../../components/Button";
+import Content from "../../components/Content";
 import Header from "../../components/Header";
+import Title from "../../components/Title";
 
 export default function Home() {
 
     return (
-        <Header />
+        <>
+            <Header />
+            <main className="content-container">
+                <div>
+                    <Title title="Desafio Github API" />
+                </div>
+                <div>
+                    <Content content="DevSuperior - Escola de programação" />
+                </div>
+                <div className="mt27">
+                    <Button button="Começar" />
+                </div>
+            </main>
+        </>
     );
 }

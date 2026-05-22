@@ -25,3 +25,12 @@ a:hover {
     text-decoration: none;
     color: unset;
 }
+
+.content-container {
+    margin-left: 41px;
+    margin-top: 27px;
+}
+
+.mt27 {
+    margin-top: 27px;
+}
