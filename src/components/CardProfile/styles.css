@@ -1,10 +1,11 @@
 .card-container {
-    width: 1251px;
+    width: 100%;
+    max-width: 1251px;
     height: 270px;
     display: flex;
     background-color: var(--bg-color-tertiary);
     border-radius: 16px;
-    margin: 54px 100px;
+    margin: 54px auto;
 }
 
 .card-content {

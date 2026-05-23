@@ -9,7 +9,7 @@ export default function FindButton({ button } : Props) {
 
     return (
         <section className="custom-button find-button">
-            <Link to="/">
+            <Link to="/after">
                 {button}
             </Link>
         </section>
