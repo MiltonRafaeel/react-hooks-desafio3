@@ -1,0 +1,18 @@
+.card-result-container {
+    width: 100%;
+    max-width: 1251px;
+    height: 270px;
+    display: flex;
+    background-color: var(--bg-color-quartenary);
+    border-radius: 16px;
+    margin: 54px auto;
+}
+
+.card--wthite {
+    align-items: center;
+    width: 100%;
+    max-width: 902px;
+    height: 247px;
+    background-color: var(--bg-color-quinternary);
+    margin: auto 29px;
+}

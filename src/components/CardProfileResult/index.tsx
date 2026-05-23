@@ -5,18 +5,29 @@ export default function CardProfileResult() {
     return (
         <main className="card-result-container">
             <section className="card-result-content">
-                <div className="custom-title-card-find-profile-result">
-                    img
+                <div className="custom-card-find-profile-result">
+                    imagem
                 </div>
-                <div>
-                    <div>
-                        informacoes
+                <div className="card--wthite">
+                    <div className="custom-color-font">
+                        <p>Informações</p>
                     </div>
                     <form action="">
-                        <input type="text" placeholder="Perfil:" />
-                        <input type="text" placeholder="Seguidores:" />
-                        <input type="text" placeholder="Localidade:" />
-                        <input type="text" placeholder="Nome:" />
+                        <div>
+                            <input type="text" placeholder="Perfil:" />
+                        </div>
+
+                        <div>
+                            <input type="text" placeholder="Seguidores:" />
+                        </div>
+
+                        <div>
+                            <input type="text" placeholder="Localidade:" />
+                        </div>
+
+                        <div>
+                            <input type="text" placeholder="Nome:" />
+                        </div>
                     </form>
                 </div>
             </section>
