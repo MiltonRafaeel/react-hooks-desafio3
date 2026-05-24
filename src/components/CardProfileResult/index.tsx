@@ -1,31 +1,39 @@
 import './styles.css';
 
-export default function CardProfileResult() {
+type Props = {
+    avatar: string;
+    profileUrl: string;
+    followers: number;
+    location: string;
+    name: string;
+}
+
+export default function CardProfileResult({ avatar, profileUrl, followers, location, name } : Props) {
 
     return (
         <main className="card-result-container">
             <section className="card-result-content">
-                <div className="custom-card-find-profile-result">
-                    imagem
+                <div className="custom-card-find-profile-img-result">
+                    <img src={avatar} alt="" />
                 </div>
                 <div className="card--wthite">
                     <div className="custom-color-font">
-                        <img src="" alt="" />
+                        Informações
                     </div>
-                        <div>
-                            <p>Perfil:<span></span></p>
+                        <div className="border-result-profile">
+                            <p>Perfil:<span>{profileUrl}</span></p>
                         </div>
 
-                        <div>
-                            <p>Segudiores:<span></span></p>
+                        <div className="border-result-profile">
+                            <p>Seguidores:<span>{followers}</span></p>
                         </div>
 
-                        <div>
-                            <p>Localidade:<span></span></p>
+                        <div className="border-result-profile">
+                            <p>Localidade:<span>{location}</span></p>
                         </div>
 
-                        <div>
-                            <p>Nome:<span></span></p>
+                        <div className="border-result-profile">
+                            <p>Nome:<span>{name}</span></p>
                         </div>
                 </div>
             </section>
