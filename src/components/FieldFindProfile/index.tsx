@@ -1,10 +1,20 @@
 import './styles.css';
 
-export default function FieldFindProfile() {
+type Props = {
+    username: string;
+    onChange: (value: string) => void;
+}
+
+export default function FieldFindProfile({ username, onChange }: Props) {
 
     return (
-        <form action="" className="custom-field-find-profile">
-            <input className="custom-input-field-profile" type="text" placeholder="Usuário Github" />
-        </form>
+        <div className="custom-field-find-profile">
+            <input className="custom-input-field-profile"
+                type="text"
+                placeholder="Usuário Github"
+                value={username}
+                onChange={(e) => onChange(e.target.value)}
+            />
+        </div>
     );
 }

@@ -3,7 +3,13 @@ import FindButton from '../FindButton';
 import Title from '../Title';
 import './styles.css';
 
-export default function CardProfile() {
+type Props = {
+    username: string;
+    onUsernameChange: (value: string) => void;
+    onSearch: () => void; // ainda passa do Before
+}
+
+export default function CardProfile({ username, onUsernameChange, onSearch }: Props) {
 
     return (
         <main className="card-container">
@@ -11,12 +17,13 @@ export default function CardProfile() {
                 <div className="custom-title-card-find-profile">
                     <Title title="Encontre um perfil Github" />
                 </div>
-                <div>
-                    <FieldFindProfile />
-                </div>
-                <div>
+                <form onSubmit={(e) => {
+                    e.preventDefault();
+                    onSearch();
+                }}>
+                    <FieldFindProfile username={username} onChange={onUsernameChange} />
                     <FindButton button="Encontrar" />
-                </div>
+                </form>
             </section>
         </main>
     );

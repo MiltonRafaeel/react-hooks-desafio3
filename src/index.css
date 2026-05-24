@@ -35,3 +35,8 @@ a:hover {
 .mt27 {
     margin-top: 27px;
 }
+
+.error-container {
+    max-width: 1251px;
+    margin: 64px auto 0 auto;
+}

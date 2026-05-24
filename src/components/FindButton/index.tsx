@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './styles.css';
 
 type Props = {
@@ -9,9 +8,9 @@ export default function FindButton({ button } : Props) {
 
     return (
         <section className="custom-button find-button">
-            <Link to="after">
+            <button type="submit">
                 {button}
-            </Link>
+            </button>
         </section>
     );
 }

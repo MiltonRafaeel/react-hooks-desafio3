@@ -21,19 +21,19 @@ export default function CardProfileResult({ avatar, profileUrl, followers, locat
                         Informações
                     </div>
                         <div className="border-result-profile">
-                            <p>Perfil:<span>{profileUrl}</span></p>
+                            <p>Perfil: <a href={profileUrl} target="_blank">{profileUrl}</a></p>
                         </div>
 
                         <div className="border-result-profile">
-                            <p>Seguidores:<span>{followers}</span></p>
+                            <p>Seguidores: <span>{followers}</span></p>
                         </div>
 
                         <div className="border-result-profile">
-                            <p>Localidade:<span>{location}</span></p>
+                            <p>Localidade: <span>{location}</span></p>
                         </div>
 
                         <div className="border-result-profile">
-                            <p>Nome:<span>{name}</span></p>
+                            <p>Nome: <span>{name}</span></p>
                         </div>
                 </div>
             </section>

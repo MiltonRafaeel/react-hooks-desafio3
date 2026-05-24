@@ -7,10 +7,11 @@
     width: 298px;
     align-items: center;
     border-radius: 4px;
+    color: var(--font-color-quartenary);
+    padding-left: 17px;
 }
 
 .custom-input-field-profile::placeholder {
-    padding-left: 17px;
     font-size: 16px;
     color: var(--font-color-quartenary);
 }
