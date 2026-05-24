@@ -10,25 +10,23 @@ export default function CardProfileResult() {
                 </div>
                 <div className="card--wthite">
                     <div className="custom-color-font">
-                        <p>Informações</p>
+                        <img src="" alt="" />
                     </div>
-                    <form action="">
                         <div>
-                            <input type="text" placeholder="Perfil:" />
+                            <p>Perfil:<span></span></p>
                         </div>
 
                         <div>
-                            <input type="text" placeholder="Seguidores:" />
+                            <p>Segudiores:<span></span></p>
                         </div>
 
                         <div>
-                            <input type="text" placeholder="Localidade:" />
+                            <p>Localidade:<span></span></p>
                         </div>
 
                         <div>
-                            <input type="text" placeholder="Nome:" />
+                            <p>Nome:<span></span></p>
                         </div>
-                    </form>
                 </div>
             </section>
         </main>

@@ -10,7 +10,7 @@ function App() {
     <Routes>
       <Route index element={<Home />} />
       <Route path="before" element={<Before />} >
-        <Route path="after" element={<After />} />
+        <Route path="after/:username" element={<After />} />
       </Route>
     </Routes>
    </BrowserRouter>
